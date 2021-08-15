@@ -27,7 +27,7 @@ a:hover {
     height: 30px;
 }
 
-#section {
+.section {
     width: 100vw;
     height: 100vh;
 }
@@ -40,6 +40,8 @@ a:hover {
 #section div {
     height: 300px;
 }
+
+#tarjetas {}
 
 .Tarjeta {
     text-align: center;
