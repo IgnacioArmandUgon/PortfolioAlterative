@@ -30,7 +30,6 @@
     </nav>
     <!-- Form -->
     <form class="container d-flex flex-column align-items-center">
-
         <div class="form-group">
             <label for="name">Nombre y apellido</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre y apellido">
@@ -45,23 +44,18 @@
             <label for="text">¿Que podemos hacer por ti?</label>
             <textarea type="text" class="form-control" id="text" name="text" rows="4" cols="30" rows="10" placeholder="Cuentanos que necesitas"></textarea>
         </div>
-
         <div>
             <button type="submit" class="btn btn-danger" onclick="validar()">Enviar</button>
         </div>
-
     </form>
-
 </body>
 <script>
     function validar() {
-
         var nombre = document.getElementById("name").value;
         if (nombre == "") {
             $("#error").text("Rellena este campo pls");
         }
     }
 </script>
-
 
 </html>
