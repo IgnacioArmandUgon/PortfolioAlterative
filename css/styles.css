@@ -21,9 +21,19 @@
     font-size: 12px;
 } */
 
+.sombra:hover {
+    background-color: #212529;
+    /*box-shadow: 5px -1px 5px 10px #13151827;*/
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
 #logo {
-    width: 30px;
-    height: 30px;
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-top: 3em;
 }
 
 .Tarjeta {
